@@ -1,0 +1,21 @@
+#include "gtest/gtest.h"
+#include "sudoku_steganography.h"
+#include "sudoku_destruction.h"
+TEST(gtest, is_destroyed){
+	EXPECT_EQ(1,puzzle_destroyed("190060003003004090020000750000050402000402000502030000015000060060800900800040071"));
+}
+TEST(gtest, not_destroyed){
+	EXPECT_EQ(0,puzzle_destroyed("190063333003004090020000750000050402000402000502030000015000060060800900800040071"));
+}
+
+TEST(gtest, is_solvable){
+	EXPECT_EQ(1,puzzle_solved("190060003003004090020000750000050402000402000502030000015000060060800900800040071"));
+}
+TEST(gtest, not_solvable){
+	EXPECT_EQ(0,puzzle_solved("190063333003004090020000750000050402000402000502030000015000060060800900800040071"));
+}
+
+int main (int argc, char** argv){
+	::testing::InitGoogleTest(&argc, argv);
+	return RUN_ALL_TESTS();
+}

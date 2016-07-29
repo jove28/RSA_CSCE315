@@ -1,0 +1,18 @@
+Testing returnBinary.
+![image](https://github.tamu.edu/github-enterprise-assets/0000/0699/0000/0266/4a1e97c2-e715-11e4-90be-b446dfea7e8f.png)
+
+![image](https://github.tamu.edu/github-enterprise-assets/0000/0699/0000/0267/5a4255d0-e715-11e4-8282-e1cd836a5840.png)
+
+Testing formatBInary: failed, bc returning wrong object
+ 
+![image](https://github.tamu.edu/github-enterprise-assets/0000/0699/0000/0268/5defbe52-e715-11e4-8c30-0487550f7e7e.png)
+![image](https://github.tamu.edu/github-enterprise-assets/0000/0699/0000/0269/62706be8-e715-11e4-89d2-d90aaceb312e.png)
+![image](https://github.tamu.edu/github-enterprise-assets/0000/0699/0000/0270/6a67d494-e715-11e4-94cb-7188c2357820.png)
+
+Testing: formatBinary, fixed.
+ 
+![image](https://github.tamu.edu/github-enterprise-assets/0000/0699/0000/0271/6d711740-e715-11e4-9996-2c3d6da8207f.png)
+
+ 
+![image](https://github.tamu.edu/github-enterprise-assets/0000/0699/0000/0272/70f2267a-e715-11e4-9983-357f533d46fe.png)
+
